@@ -15,6 +15,9 @@ def calculate(operator, value_1, value_2) -> int:
     elif operator == '%':
         # do some stuff
         return param_1 % param_2
+    elif operator == '^':
+        # do some stuff
+        return param_1 ^ param_2
     else:
         raise Exception("Unexpected Operator!")
 
